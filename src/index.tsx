@@ -1,14 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+/** @format */
+
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import Resources from "./Resources";
+import * as serviceWorker from "./serviceWorker";
+import AssetList from "./AssetList";
+import AssetMap from "./AssetMap";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <AssetList />
+    </React.StrictMode>,
+    document.getElementById("lead")
+);
+
+ReactDOM.render(
+    <React.StrictMode>
+        <AssetMap />
+        <Resources />
+    </React.StrictMode>,
+    document.getElementById("main")
 );
 
 // If you want your app to work offline and load faster, you can change

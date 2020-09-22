@@ -1,21 +1,31 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="description" content="Web site created using create-react-app" />
+        <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+        <!-- MindSphere Web Components from CDN -->
+        <script
+            id="mdsp-webcomponents-loader"
+            type="text/javascript"
+            src="https://static.eu1.mindsphere.io/webcomponents/v1/index.js"
+        ></script>
+
+        <!-- MindSphere Style Sheet from CDN -->
+        <link rel="stylesheet" href="https://static.eu1.mindsphere.io/mdsp-css/v1.5.0/css/mdsp-css.min.css" />
+
+        <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -24,12 +34,68 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
+        <title>My MindSphere Start for Free App</title>
+        <script src="https://static.eu1.mindsphere.io/osbar/v4/js/main.min.js"></script>
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div class="mdsp mdsp-defaults" id="_mdspcontent">
+            <div class="appWrapper">
+                <div
+                    class="appWrapper__regions has-appBar has-leadingRegion leadingRegion-is-expanded appWrapper__regions--pushLayout"
+                >
+                    <section class="leadingRegion">
+                        <div id="lead" class="mdsp mdsp-defaults forceDefaultElements container"></div>
+                    </section>
+                    <section class="mainRegion">
+                        <div id="main" class="mdsp mdsp-defaults forcecontainer"></div>
+                    </section>
+                    <section class="contextRegion">
+                        <!-- content for context region goes here -->
+                    </section>
+                </div>
+
+                <ul class="appWrapper__appBar">
+                    <li class="appBar__item">
+                        <a href="#">
+                            <span class="iconMdsp person" aria-hidden="true"></span>
+                            <span class="item__title">Lorem</span>
+                        </a>
+                    </li>
+                    <li class="appBar__item is-activated">
+                        <a href="#">
+                            <span class="iconMdsp calendarDay" aria-hidden="true"></span>
+                            <span class="item__title">Ipsum</span>
+                        </a>
+                    </li>
+                    <li class="appBar__item">
+                        <a href="#">
+                            <span class="iconMdsp aspects" aria-hidden="true"></span>
+                            <span class="item__title">Dolor sit</span>
+                        </a>
+                    </li>
+                    <li class="appBar__item">
+                        <a href="#">
+                            <span class="iconMdsp asset" aria-hidden="true"></span>
+                            <span class="item__title">Amet tempor aliquam quctor</span>
+                        </a>
+                    </li>
+                    <li class="appBar__item is-disabled">
+                        <a href="#">
+                            <span class="iconMdsp calendar" aria-hidden="true"></span>
+                            <span class="item__title">Morbi et lobortis lacus sed tempor</span>
+                        </a>
+                    </li>
+                    <li class="appBar__item">
+                        <a href="#">
+                            <span class="iconMdsp globalSettings" aria-hidden="true"></span>
+                            <span class="item__title">Lobortis lacus sed tempor</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -39,5 +105,13 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+
+        <!-- Main app markup goes here -->
+        <script>
+            _mdsp.init({
+                title: "#StartForFree",
+                appId: "_mdspcontent",
+            });
+        </script>
+    </body>
 </html>

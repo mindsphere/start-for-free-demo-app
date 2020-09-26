@@ -72,7 +72,7 @@ How to run the application in your local development environment (click on the i
 
 You can deploy the application to any hosting provider which provides support for static web pages. The button below will deploy the app to [heroku](https://heroku.com) as an example.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mindsphere/start-for-free-demo-app)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Fmindsphere%2Fstart-for-free-demo-app)
 
 ## Available Scripts
 

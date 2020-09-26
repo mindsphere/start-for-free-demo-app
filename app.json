@@ -1,0 +1,6 @@
+{
+  "name": "MindSphere #StartForFree Demo App",
+  "description": "simple static react app",
+  "repository": "https://github.com/mindsphere/start-for-free-demo-app",
+  "keywords": ["node", "static"]
+}

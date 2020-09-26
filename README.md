@@ -5,6 +5,9 @@
 This is a simple [React](https://reactjs.org/) application which was bootstrapped
 with [Create React App](https://github.com/facebook/create-react-app).
 
+[![Deploy to Azure](https://azurecomcdn.azureedge.net/mediahandler/acomblog/media/Default/blog/deploybutton.png)](https://azuredeploy.net/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 You will need nodejs and npm installed on your computer. You can get them at [https://nodejs.org/](https://nodejs.org/).
 
 The application showcases the use of

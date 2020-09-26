@@ -5,8 +5,6 @@
 This is a simple [React](https://reactjs.org/) application which was bootstrapped
 with [Create React App](https://github.com/facebook/create-react-app).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
 You will need nodejs and npm installed on your computer. You can get them at [https://nodejs.org/](https://nodejs.org/).
 
 The application showcases the use of
@@ -69,6 +67,12 @@ The diagram below shows the local setup:
 How to run the application in your local development environment (click on the image below to go to the video)
 
 [![show video](images/app.png)](https://opensource.mindsphere.io/docs/mindconnect-nodejs/cli/development-proxy.html#tab1anchor4)
+
+## Deploying the application
+
+You can deploy the application to any hosting provider which provides support for static web pages. The button below will deploy the app to [heroku](https://heroku.com).
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Available Scripts
 

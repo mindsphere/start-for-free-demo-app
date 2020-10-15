@@ -74,7 +74,7 @@ You can deploy the application to any hosting provider which provides support fo
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Fmindsphere%2Fstart-for-free-demo-app)
 
-### [Deployment Video](https://vimeo.com/manage/462633272/general)
+### [Deployment Video](https://vimeo.com/462633272)
 
 ## Available Scripts
 

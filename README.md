@@ -41,7 +41,7 @@ Proxies and authenticates all calls to MindSphere APIs on [http://localhost:7707
 You will have to copy the [authentication cookies from MindSphere first](https://opensource.mindsphere.io/docs/mindconnect-nodejs/cli/development-proxy.html#tab1anchor1)
 
 ```bash
-export MDSP_HOST="castidev-sdk-castidev.eu1.mindsphere.io"
+export MDSP_HOST="{{tenant}}-sdk-{{tenant}}.eu1.mindsphere.io"
 export MDSP_SESSION="NzBi...Zl"
 export MDSP_XSRF_TOKEN="fed5edc5-...2565238c114"
 ```
